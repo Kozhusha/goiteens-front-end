@@ -4,22 +4,38 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>lifestyle</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <!--Подключаем шрифты с Google Fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
     <link href="css/styles.css" rel="stylesheet" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <nav>
         <ul class="upper-menu">
-          <li class="upper-menu-item"><a href="#">Lifestyle</a></li>
-          <li class="upper-menu-item"><a href="#">Photodiary</a></li>
-          <li class="upper-menu-item"><a href="#">Music</a></li>
-          <li class="upper-menu-item"><a href="#">Travel</a></li>
+          <li class="upper-menu-item">
+            <a class="link" href="#">Lifestyle</a>
+          </li>
+          <li class="upper-menu-item">
+            <a class="link" href="#">Photodiary</a>
+          </li>
+          <li class="upper-menu-item"><a class="link" href="#">Music</a></li>
+          <li class="upper-menu-item"><a class="link" href="#">Travel</a></li>
         </ul>
       </nav>
     </header>
     <main>
       <!-- Первый блок -->
-      <section>
+      <section class="container">
         <img
           src="img/image-01.jpg"
           alt="Lifestyle photo"
@@ -37,7 +53,7 @@
         </p>
       </section>
       <!-- Второй блок -->
-      <section>
+      <section class="container">
         <img
           src="img/image-02.jpg"
           alt="Lifestyle2 photo"
@@ -55,7 +71,7 @@
         </p>
       </section>
       <!--Третий блок -->
-      <section>
+      <section class="container">
         <img
           src="img/image-03.jpg"
           alt="photodiary photo"
@@ -73,14 +89,14 @@
         </p>
       </section>
       <!-- четвёртый блок -->
-      <section>
+      <section class="container">
         <img
           src="img/image-04.jpg"
           alt="Phodiary photo 2"
           width="420"
           height="280"
         />
-        <h5>Photodiary</h5>
+        <h5>PHOTODIARY</h5>
         <h2>A day exploring the Alps</h2>
         <p>
           Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
@@ -90,7 +106,43 @@
           porro iste magnam corporis illum earum placeat asperiores.
         </p>
       </section>
-      <button type="button">Load More</button>
+      <section class="container">
+        <img
+          src="img/image-05.jpg"
+          alt="songs for runnig photo"
+          width="420"
+          height="280"
+        />
+        <h5>LIFESTYLE</h5>
+        <h2>Top 10 songs for running</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
+          libero. Deleniti natus dolore eveniet, laborum, alias neque dicta,
+          reiciendis dolor nulla facilis veritatis non quasi. ipsum dolor sit
+          amet consectetur adipisicing elit. Totam doloremque nulla suscipit
+          porro iste magnam corporis illum earum placeat asperiores.
+        </p>
+      </section>
+      <section class="container">
+        <img
+          src="img/image-06.jpg"
+          alt=" winter days photo"
+          width="420"
+          height="280"
+        />
+        <h5>LIFESTYLE</h5>
+        <h2>Cold winter days</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque,
+          libero. Deleniti natus dolore eveniet, laborum, alias neque dicta,
+          reiciendis dolor nulla facilis veritatis non quasi. ipsum dolor sit
+          amet consectetur adipisicing elit. Totam doloremque nulla suscipit
+          porro iste magnam corporis illum earum placeat asperiores.
+        </p>
+      </section>
+      <div class="container">
+        <button type="button">Load More</button>
+      </div>
     </main>
   </body>
 </html>

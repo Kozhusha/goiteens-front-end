@@ -1,7 +1,53 @@
+/*Скидання налаштувань відступів браузерів по дефолту*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+/*Скидання відступів у списках по дефолту*/
+ul {
+  margin: 0;
+  padding: 0;
+}
+/*Робить всі зображення блочними*/
+img {
+  display: block;
+}
 a {
   text-decoration: none;
+}
+h5 {
+  font-size: 14px;
+  font-family: 'Ubuntu';
+  color: rgb(180, 173, 158);
+  text-transform: uppercase;
+}
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+/*=====ВЕРХНЕ МЕНЮ=====*/
+.upper-menu-item > a {
+  color: rgb(98, 98, 98);
 }
 .upper-menu-item {
   list-style: none;
   display: inline-block;
+  color: rgb(98, 98, 98);
+  font-size: 14px;
+  font-family: 'Playfair Display', sans-serif;
+  text-transform: uppercase;
+  line-height: 1.714;
+  text-align: center;
+  margin-top: 77px;
+  margin-bottom: 100px;
+}
+
+.upper-menu-item a:hover {
+  color: #7cc8f8;
+  cursor: pointer;
 }
