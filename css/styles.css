@@ -16,38 +16,107 @@ ul {
 /*Робить всі зображення блочними*/
 img {
   display: block;
+  margin-bottom: 32px;
 }
+
 a {
   text-decoration: none;
 }
+
+h2 {
+  margin-bottom: 28px;
+  font-family: 'Playfair Display', sans-serif;
+  color: rgb(98, 98, 98);
+  font-size: 30px;
+  font-weight: 400;
+}
+
 h5 {
   font-size: 14px;
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 300;
   color: rgb(180, 173, 158);
   text-transform: uppercase;
+  margin-bottom: 30px;
 }
-.container {
+
+p {
+  margin-bottom: 135px;
+  font-family: 'PlayfairDisplay';
+  font-size: 14px;
+  color: rgb(98, 98, 98);
+  line-height: 1.714;
+  text-align: left;
+}
+
+main {
   width: 900px;
   margin: 0 auto;
 }
-/*=====ВЕРХНЕ МЕНЮ=====*/
-.upper-menu-item > a {
-  color: rgb(98, 98, 98);
+
+.header {
+  width: 900px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  padding-top: 77px;
 }
+
+.navigation {
+  text-align: center;
+}
+
+/*=====ВЕРХНЕ МЕНЮ=====*/
+/* .upper-menu-item > a {
+  color: rgb(98, 98, 98);} */
+
+.upper-menu {
+  list-style: none;
+}
+
 .upper-menu-item {
   list-style: none;
   display: inline-block;
-  color: rgb(98, 98, 98);
-  font-size: 14px;
   font-family: 'Playfair Display', sans-serif;
-  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 14px;
   line-height: 1.714;
-  text-align: center;
-  margin-top: 77px;
-  margin-bottom: 100px;
+  text-transform: uppercase;
+  margin-right: 90px;
+}
+
+.upper-menu-item:last-child {
+  margin-right: 0;
+}
+
+.upper-menu-item a {
+  color: rgb(98, 98, 98);
 }
 
 .upper-menu-item a:hover {
   color: #7cc8f8;
   cursor: pointer;
+}
+
+/*====Колонки з контентом====*/
+.container {
+  width: 420px;
+  display: inline-block;
+  margin-right: 55px;
+}
+
+.container:nth-child(even) {
+  margin-right: 0;
+}
+
+.button {
+  display: block;
+  font-family: 'Playfair Display', sans-serif;
+  font-size: 20px;
+  line-height: 1.2;
+  background: transparent;
+  border-color: rgb(98, 98, 98);
+  padding: 20px 35px;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-left: 358px;
 }
